@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      header {
+        display: flex;
+        align-items: center;
+      }
+      header ul {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        padding: 0 8rem;
+        list-style-type: none;
+      }
+      header ul > li > a:hover {
+        color: #ff8300;
+      }
+      header div {
+        padding: 1rem 2rem;
+        color: #ff4500;
+      }
+      section {
+        height: 460px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .div-img {
+        width: 450px;
+        height: 300px;
+      }
+      .div-text {
+        width: 450px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        gap: 0.6rem;
+      }
+      .div-text p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: grey;
+      }
+      .div-text h1 {
+        color: blue;
+      }
+      button {
+        height: 2rem;
+        border: none;
+        border-radius: 20px;
+        background-color: #ff4500;
+        color: white;
+        cursor: pointer;
+      }
+      footer {
+        background-color: #f2f2f2;
+        height: 100px;
+      }
+      footer div p{
+        padding: 1rem 6rem;
+      }
+      .inner-2 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .inner-2 div ul {
+        display: flex;
+        gap: 2.5rem;
+        padding: 1rem 6rem;
+        list-style-type: none;
+      }
+      .inner-2 div ul li a:hover {
+        text-decoration: underline;
+      }
+      /* @media only screen and (max-width: 650px) {
+   .inner-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+} */
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h2>SNEAKERS</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">Man</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="div-img">
+        <img
+          src="https://cdn.sweatband.com/salming_viper_kids_court_shoes_with_laces_salming_viper_kids_court_shoes_with_laces1_2000x2000.jpg"
+          alt="Sneakers"
+          width="450px"
+          height="300px"
+        />
+      </div>
+
+      <div class="div-text">
+        <p>SNEAKER COMPANY</p>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          Faster and fresher than any RS silhouette yet, be steps ahead in
+          PUMA's RS-Fast Mix Gold Shoes. Blending early 2000s influence with a
+          futuristic aesthetic for today's digital ...
+        </p>
+        <h1>$125.00</h1>
+        <button>Add to cart</button>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p>India</p>
+      </div>
+
+      <div><hr /></div>
+
+      <div class="inner-2">
+        <div>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Work</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#">Privecy</a></li>
+            <li><a href="#">Term</a></li>
+            <li><a href="#">Setting</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
